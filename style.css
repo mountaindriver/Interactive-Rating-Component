@@ -108,7 +108,14 @@ h6 {
 }
 
 .card__thankyou {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
+}
+
+.card__thankyou img {
+  width: 200px;
 }
 
 .card__star {
@@ -125,7 +132,7 @@ svg {
 }
 
 .card__title {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   color: var(--clr-neautral-100);
 }
 
@@ -137,7 +144,8 @@ svg {
 
 .card__rating {
   margin: 1.6rem;
-  padding: .25rem;
+  padding: .5rem;
+  color: var(--clr-primary-400);
   background-color: var(--clr-neautral-600);
   border-radius: 1rem;
 }
